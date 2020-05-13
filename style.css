@@ -4,7 +4,7 @@
 
 body {
   font-family: "Crimson Text", serif;
-  background-color: rgb(240, 234, 227);
+  background-color: #f0eae3;
 }
 
 header {
@@ -92,7 +92,7 @@ li:hover {
 .greeting:hover {
 }
 
-.intro {
+.intro, .body {
   margin: 0 10vw 0 0;
   padding: 5vw 5vw 5vw 15vw;
   font-size: 2.8vw;
@@ -101,3 +101,37 @@ li:hover {
   font-weight: normal;
   letter-spacing: 0.1em;
 }
+
+.content{
+text-align: center;
+
+}
+
+.story{
+    
+    width: 50%;
+    border-radius: 1vw;
+    position: relative;
+    left: 6vw;
+}
+
+.yellowcard{
+    background-color: #ffd519;
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    z-index: -1;
+    top: 115vw;
+    border-radius: 1vw;
+    left: 4vw;
+    color: #f0eae3;
+}
+
+.tanzania, .year{
+    position: relative;
+    left: -10vw;
+    font-size: 4vw;
+    font-family: "Open sans", sans-serif;
+    
+}
+
