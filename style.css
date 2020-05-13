@@ -1,0 +1,102 @@
+* {
+  font-weight: normal;
+}
+
+body {
+  font-family: "Crimson Text", serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0 4vw 3vw 4vw;
+}
+
+h1 {
+  transition: transform 1s;
+}
+
+h1:hover {
+  transform: translate(0, -1vw);
+}
+
+.logo {
+  font-size: 2.5vw;
+  position: relative;
+  top: 1vw;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  order: 2;
+}
+
+li {
+  padding: 0 1vw 0 1vw;
+  transition: transform 1s;
+  font-size: 2.5vw;
+  position: relative;
+  top: 7vw;
+}
+
+li:hover {
+  transform: translate(0, -1vw);
+}
+
+.hero {
+  width: 50%;
+  margin: 6vw 0 0 20vw;
+  border-radius: 1vw;
+  position: relative;
+  left: -5vw;
+}
+
+.hero:hover {
+}
+
+.bio {
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  /*background-color: #91baff;*/
+  background-color: #ffac00;
+  width: 40%;
+  height: 35vw;
+  position: absolute;
+  top: 12vw;
+  left: 4vw;
+  z-index: -1;
+  border-radius: 1vw;
+}
+
+.greeting {
+  margin: 0vw 4vw 4vw 2vw;
+  font-size: 6vw;
+  background-color: #ffd519;
+  border-radius: 1vw;
+  padding: 4vw 4vw 4vw 4vw;
+  color: white;
+  font-family: "Open sans", sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.05em;
+  position: relative;
+  top: -4vw;
+  left: -2vw;
+}
+
+.greeting:hover {
+}
+
+.intro {
+  margin: 0 10vw 0 0;
+  padding: 5vw 5vw 5vw 15vw;
+  font-size: 2.8vw;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
