@@ -130,8 +130,18 @@ text-align: center;
 .tanzania, .year{
     position: relative;
     left: -10vw;
-    font-size: 4vw;
+    
     font-family: "Open sans", sans-serif;
+    
+}
+
+.tanzania{
+    font-size: 4vw;
+
+}
+
+.year{
+    font-size: 2vw;
     
 }
 
