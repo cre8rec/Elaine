@@ -4,6 +4,7 @@
 
 body {
   font-family: "Crimson Text", serif;
+  background-color: rgb(240, 234, 227);
 }
 
 header {
@@ -79,7 +80,7 @@ li:hover {
   background-color: #ffd519;
   border-radius: 1vw;
   padding: 4vw 4vw 4vw 4vw;
-  color: white;
+  color: rgb(240, 234, 227);
   font-family: "Open sans", sans-serif;
   font-weight: 200;
   letter-spacing: 0.05em;
