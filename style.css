@@ -104,6 +104,8 @@ li:hover {
 
 .content{
 text-align: center;
+position: relative;
+top:-20vw
 
 }
 
@@ -119,9 +121,9 @@ text-align: center;
     background-color: #ffd519;
     width: 50vw;
     height: 30vw;
-    position: absolute;
+    position: relative;
     z-index: -1;
-    top: 115vw;
+    top: 20vw;
     border-radius: 1vw;
     left: 4vw;
     color: #f0eae3;
@@ -130,7 +132,7 @@ text-align: center;
 .tanzania, .year{
     position: relative;
     left: -10vw;
-    
+    top: 5vw;
     font-family: "Open sans", sans-serif;
     
 }
